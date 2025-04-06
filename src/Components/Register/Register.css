@@ -3,27 +3,27 @@
   max-width: 400px;
   padding: 20px;
   border: 1px solid #ccc;
-  border-radius: 36px;
+  border-radius: 20px;
   text-align: center;
-  background-color: rgb(255 255 255 / 33%); /* Optional for visibility */
-  position: absolute; /* Use absolute positioning */
-  right: 30px; /* Distance from the right edge */
-  top: 50%; /* Vertically center the container */
-  transform: translateY(-50%); /* Adjust for perfect vertical alignment */
+  background-color: rgba(255, 255, 255, 0.575); 
+  position: absolute; 
+  right: 30px; 
+  top: 50%; 
+  transform: translateY(-50%); 
 }
 
 .register-container h1 {
   margin: 1px 0px 0px 0px ;
-  color: #00ffff;
+  color: #304ef4;
   
 }
 
 .register-container input {
-  width: 90%;
+  width: 72%;
   margin: 10px 0;
   padding: 10px;
   border: 1px solid #ccc;
-  border-radius: 20px;
+  border-radius: 10px;
 }
 
 
@@ -31,12 +31,13 @@
   margin: 8px 2px 2px 2px;
   padding: 12px;
   border: none;
-  border-radius: 30px;
+  border-radius: 10px;
   cursor: pointer;
-  background-color: #0ed02b;
+  background-color: #3170f0;
   width: 120px;
+  color: white;
 }
 
 .register-container button:hover {
-  background-color: #218838;
+  background-color: #0ed02b;
 }

@@ -56,14 +56,15 @@ const BookFlight = () => {
         alignItems: "center",
       }}
     >
-      <Typography variant="h4" mb={3}>
+      {/* <Typography variant="h4" mb={3}>
         Book Flight
-      </Typography>
+      </Typography> */}
 
       {/* Flight Info */}
       <Paper
         elevation={4}
         sx={{
+          marginTop:6,
           backgroundColor: "#004aad",
           color: "white",
           padding: 2,

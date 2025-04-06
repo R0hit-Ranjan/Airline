@@ -2,7 +2,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { GiCommercialAirplane } from "react-icons/gi";
 
-
 const Header = () => {
   return (
     <header style={styles.header}>
@@ -19,7 +18,7 @@ const Header = () => {
           Home
         </Link>
         <Link to="/about" style={styles.link}>
-          About 
+          About
         </Link>
         <Link to="/contact" style={styles.link}>
           Contact
@@ -34,14 +33,18 @@ const Header = () => {
 
 const styles = {
   header: {
-    
+    position: "fixed",
+    top: 0,
+    left: 0,
+    width: "100%",
     display: "flex",
     justifyContent: "space-between",
     alignItems: "center",
     padding: "16px 20px",
     backgroundColor: "#0073e6",
     color: "#ffffff",
-
+    zIndex: 1000,
+    boxShadow: "0px 2px 5px rgba(0, 0, 0, 0.3)",
   },
   logo: {
     display: "flex",
@@ -52,10 +55,11 @@ const styles = {
   },
   nav: {
     fontFamily: "'Roboto', sans-serif",
-    fontWeight: "500",
     fontSize: "18px",
     display: "flex",
-    gap: "15px",
+    gap: "20px",
+    marginRight: "80px",
+    fontWeight: "Bold",
   },
   link: {
     color: "white",
