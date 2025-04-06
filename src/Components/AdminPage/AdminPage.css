@@ -1,0 +1,328 @@
+/* Centering the form using Flexbox */
+.admin-page-container {
+  display: flex;
+  justify-content: center; /* Horizontally center the form */
+  align-items: center; /* Vertically center the form */
+  height: 100vh; /* Make the container span the full viewport height */
+  background-color: #eef2f3; /* Light background color */
+}
+/* styles.css */
+
+.view-flight-container {
+  padding: 2rem;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.title {
+  text-align: center;
+  font-weight: 600; /* Slightly less bold, more refined */
+  color: #3e70d4; /* Dark gray text for a more subtle look */
+  margin-bottom: 4rem; /* Adding a bit more spacing at the bottom */
+  font-family: 'Helvetica Neue', sans-serif; /* Clean and modern font */
+  text-transform: capitalize; /* Use normal case, rather than uppercase */
+  position: relative; /* To position the decorative line */
+}
+
+
+.table-container {
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.action-icon {
+  margin-right: 10px;
+}
+
+button:focus {
+  outline: none;
+}
+
+.view-flight-booking-container {
+  padding: 2rem;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.table-container {
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.action-icon {
+  margin-right: 10px;
+}
+
+button:focus {
+  outline: none;
+}
+
+.view-airplane-container {
+  padding: 2rem;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.table-container {
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.action-icon {
+  margin-right: 10px;
+}
+
+button:focus {
+  outline: none;
+}
+
+.view-airport-container {
+  padding: 2rem;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.table-container {
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.action-icon {
+  margin-right: 10px;
+}
+
+button:focus {
+  outline: none;
+}
+
+
+.add-airport-container {
+  padding: 2rem;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.form-field {
+  margin-bottom: 1rem;
+}
+
+.submit-button {
+  margin-top: 1rem;
+  text-transform: none;
+}
+
+.add-airplane-container {
+  padding: 2rem;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.form-field {
+  margin-bottom: 1rem;
+}
+
+.submit-button {
+  margin-top: 1rem;
+  text-transform: none;
+}
+
+
+/* styles.css */
+
+.add-flight-container {
+  padding: 2rem;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.form-field {
+  margin-bottom: 1rem;
+}
+
+.submit-button {
+  margin-top: 1rem;
+  text-transform: none;
+}
+
+/* Add Airport Form Styles */
+.add-airport-form {
+  /* display: flex; Use flexbox to create a horizontal row layout */
+  /* justify-content: space-between; Distribute space between elements */
+  align-items: center; /* Vertically center elements */
+  padding: 20px;
+  border: 2px solid #4CAF50;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  max-width: 40%; /* Use full width available */
+  margin: 20px auto; /* Center the form on the page */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
+  
+}
+
+.add-airport-form div {
+  /* display: flex; Arrange label and input in a row */
+  flex-direction: column; /* Stack label on top of the input */
+  margin-right: 20px; /* Add space between fields */
+}
+
+.add-airport-form label {
+  font-weight: 600;
+  margin-bottom: 5px; /* Add space below the label */
+  color: #333;
+}
+
+.add-airport-form input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+.addAirport-button{
+text-align: center;
+padding: 10px;
+}
+
+.add-airport-button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  align-self: flex-end; /* Align button to the end */
+}
+
+.add-airport-button:hover {
+  background-color: #45a049;
+  transform: scale(1.05);
+}
+
+
+/* Button container to center align the button */
+.button-container {
+  display: flex;
+  justify-content: center; /* Center the button horizontally */
+  margin-top: 20px;
+}
+
+/* Sidebar Styles */
+.sidebar {
+  width: 250px;
+  background-color: #2c3e50;
+  color: white;
+  padding: 20px;
+  position: fixed;
+  top: 50px; /* Adjusts to accommodate header */
+  left: 0;
+  height: calc(100vh - 50px); /* Full height minus header */
+  margin: 0;
+  box-sizing: border-box;
+  transition: width 0.3s ease; /* Smooth transition for sidebar width */
+}
+
+.sidebar h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 22px; /* Slightly larger heading for sidebar */
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar li {
+  padding: 12px;
+  cursor: pointer;
+  border-bottom: 1px solid #34495e;
+  transition: background-color 0.3s ease; /* Smooth hover transition */
+}
+
+.sidebar li:hover {
+  background-color: #34495e;
+}
+
+.sidebar li.active {
+  background-color: #16a085; /* Highlight active menu item */
+}
+
+/* Main Content Styles */
+.main-content {
+  flex-grow: 1;
+  padding: 20px;
+  background-color: #ecf0f1;
+  margin-left: 250px; /* Ensure main content doesn't overlap sidebar */
+}
+
+.main-content h2 {
+  text-align: center;
+  margin: 20px 0;
+  font-size: 24px; /* Larger heading for clarity */
+  color: #333;
+}
+

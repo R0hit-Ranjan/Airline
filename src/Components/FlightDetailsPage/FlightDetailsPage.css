@@ -1,0 +1,98 @@
+.flight-details-page {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f5f5f5;
+  }
+  
+  .search-info {
+    text-align: center;
+    background-color: #004aad;
+    color: white;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .search-info p {
+    margin: 5px 0;
+  }
+  
+  .flight-table-container {
+    overflow-x: auto;
+  }
+  
+  .flight-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    margin: auto;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .flight-table th, .flight-table td {
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #ddd;
+  }
+  
+  .flight-table th {
+    background-color: #004aad;
+    color: white;
+  }
+  
+  .flight-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .book-btn {
+    background-color: #ff5918;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin : 10px;
+  }
+  
+  .book-btn:hover {
+    background-color: #e04e16;
+  }
+  .status-container {
+    display: flex;
+    align-items: center;
+    gap: 8px; 
+  }
+  
+  .status-circle {
+    width: 12px; 
+    height: 12px;
+    border-radius: 50%; 
+  }
+  
+  .status-circle.on-time {
+    background-color: green; 
+  }
+  
+  .status-circle.delayed {
+    background-color: yellow; 
+  }
+  
+  .status-circle.cancelled {
+    background-color: red; 
+  }
+  
+  .status-text {
+    font-size: 14px;
+    font-weight: bold;
+  }
+  .flight-table tr:hover {
+    background-color: #eef6ff;
+  }
+  .flight-table thead th {
+    position: sticky;
+    top: 0;
+    background-color: #004aad;
+    z-index: 1;
+  }
+    

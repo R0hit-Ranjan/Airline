@@ -1,0 +1,181 @@
+.flight-search-container {
+  max-width: 800px;
+  margin: 80px auto;
+  padding: 30px;
+  background-color: #f7fcffa1;
+  border-radius: 16px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.flight-search-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.trip-type {
+  display: flex;
+  gap: 10px;
+  background-color: #f1f9fd;
+  padding: 5px;
+  border-radius: 12px;
+}
+
+.trip-button {
+  flex: 1;
+  padding: 12px;
+  font-size: 16px;
+  font-weight: 500;
+  border: none;
+  border-radius: 10px;
+  background-color: transparent;
+  color: #333;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.trip-button.active {
+  background-color: #00aaff;
+  color: #fff;
+}
+
+.form-group label svg {
+  color: #272eff; /* Optional: brand color */
+  font-size: 18px;
+}
+
+.form-row {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.form-group {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  margin-bottom: 6px;
+  font-size: 15px;
+  font-weight: 500;
+  color: #000000;
+}
+
+.dropdown,
+.date-input {
+  padding: 14px 12px;
+  border: none;
+  border-radius: 12px;
+  font-size: 15px;
+  background-color: #f1f9fd;
+  color: #333;
+  appearance: none;
+  background-repeat: no-repeat;
+  background-position: right 12px center;
+}
+
+.date-input {
+  padding: 14px 12px;
+  border: none;
+  border-radius: 12px;
+  font-size: 15px;
+  background-color: #f1f9fd;
+  color: #333;
+  appearance: none;
+  background-position: right 14px center;
+  cursor: pointer;
+}
+
+.search-button {
+  padding: 14px;
+  background-color: #1279ff;
+  color: #fff;
+  border: none;
+  border-radius: 12px;
+  font-size: 17px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  width: 100%;
+}
+
+.search-button:hover {
+  background-color: #008ecc;
+}
+
+
+/* --------------------------------------------------------------------------------- */
+/* offers css start here */
+
+
+.offers-section {
+  text-align: center;
+  padding: 20px;
+  background-color: #ffffff24;
+  border-radius: 20px;
+  width: 80%;
+  margin: 0 auto;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.offers-title {
+  font-size: 24px;
+  color: #1d4b9b;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.offers-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 24px;
+}
+
+.offer-card {
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  background-color: white;
+  transition: transform 0.3s ease;
+}
+
+.offer-card:hover {
+  transform: translateY(-8px);
+}
+
+.offer-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.offer-content {
+  padding: 16px;
+}
+
+.offer-title {
+  font-size: 18px;
+  font-weight: 600;
+  color: #004aad;
+  margin-bottom: 8px;
+}
+
+.offer-description {
+  font-size: 14px;
+  color: #555;
+}
+
+
+/* about section css start here */
+
+.about-section {
+  padding: 40px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  background-color: #f0f8ff; /* Light background for contrast */
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
